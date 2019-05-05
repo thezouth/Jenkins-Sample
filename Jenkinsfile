@@ -1,5 +1,5 @@
 pipeline {
-
+agent any
 stages {
     stage('unit'){
         agent {
@@ -13,7 +13,5 @@ stages {
             sh 'npm test'
         }
     }
-
 }
-
 }
