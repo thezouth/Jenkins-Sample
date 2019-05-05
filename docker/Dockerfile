@@ -1,5 +1,5 @@
 FROM node:8
 
 copy package.json .
-npm install
+run npm install
 
